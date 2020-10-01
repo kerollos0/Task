@@ -11,7 +11,7 @@ const Home = ({ loadedData, Data }) => {
     loadedData();
     setData(Data);
   });
-
+  //test
   return (
     <>
       <Navbar />
