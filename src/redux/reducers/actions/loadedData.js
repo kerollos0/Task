@@ -4,7 +4,7 @@ import { DATA_LOADED } from "../../CONSTANTS";
 
 const loadedData = () => async (dispatch) => {
   try {
-    const res = await axios.get(`http://62.68.253.183:8000/ngos/`);
+    const res = await axios.get(`https://megakheir.herokuapp.com/ngos`);
     dispatch({
       type: DATA_LOADED,
       payload: res.data.data,
